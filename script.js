@@ -142,6 +142,7 @@ const questions = [
     options: [
       { text: "先冲攻击面，看看哪里能打穿。", effects: { RB: "R", EX: "C" } },
       { text: "先盘资产和边界，把防线立起来。", effects: { RB: "B", EX: "D" } },
+      { text: "先把咖啡喝完。", effects: { SP: "M", AG: "W" }, roleBoost: { 慢热派: 1 } },
     ],
   },
   {
